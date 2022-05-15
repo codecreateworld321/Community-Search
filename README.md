@@ -24,7 +24,7 @@ SCBRB is the state-of-the-art exact algorithm for SCS. And STExa algorithm propo
 {query} the query vertex.     
 {lower bound of size} the lower bound of size.     
 {upper bound of size} the upper bound of size.  
-{time limit} the limit of running time. If running time is over the time limit, terminate the program and output the subgraph with the maxinum min-support/min-degree among all computed subgraph satisfying size constraint and including query vertex.
+{time limit} the limit of running time. If running time is over the time limit, terminate the program and output the subgraph with the maxinum min-support/min-degree among each computed subgraph satisfying size constraint and including query vertex.
 
 #### Running Instance   
 1. Running makefile to produce "STExa" and "TD", "make";
