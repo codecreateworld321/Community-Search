@@ -1,4 +1,4 @@
-Thanks for your attention. This is the source code of our TKDE submission “Size-constrained Community Search on Large Graphs: An Effective and Efficient Solution”.
+Thanks for your attention. This is the source code of our TKDE 2023 “Size-constrained Community Search on Large Graphs: An Effective and Efficient Solution”.
 
 #### Experimental Environment            
 The code can be run on a Linux environment. Our code is compiled on a CentOS Linux (release 7.9.2009) server with GCC 7.5.0.
@@ -37,3 +37,5 @@ If you need the code of SCBRB, please contact the authors of SCBRB [47]. And I a
 SCBRB* is SCBRB optimized with our pruning approaches, by modifying the code of "SCBRB.cpp" as follows. 
 1. Function "CSSC_heu" in "SCBRB.cpp", is replaced by our heuristic algorithm (Algorithm 2, Functions "Findku" and "Heuristic" in "STExa.cpp"). The computation of Algorithm 2 is based on degree rather than support, e.g., for the computations of "k*" and "score function". 
 2. Add a check function in "BB_dom_ustar" of "SCBRB.cpp". The function terminates current branch if there is a vertex with its coreness in G no larger than "kl" in current branch, where "kl" in "SCBRB.cpp" denotes the maximum min-degree among each computed subgraph satisfying size constraint and including query vertex.
+
+If you have any questions, please contact me (haicheng_guo@126.com).
