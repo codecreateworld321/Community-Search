@@ -38,4 +38,4 @@ SCBRB* is SCBRB optimized with our pruning approaches, by modifying the code of 
 1. Function "CSSC_heu" in "SCBRB.cpp", is replaced by our heuristic algorithm (Algorithm 2, Functions "Findku" and "Heuristic" in "STExa.cpp"). The computation of Algorithm 2 is based on degree rather than support, e.g., for the computations of "k*" and "score function". 
 2. Add a check function in "BB_dom_ustar" of "SCBRB.cpp". The function terminates current branch if there is a vertex with its coreness in G no larger than "kl" in current branch, where "kl" in "SCBRB.cpp" denotes the maximum min-degree among each computed subgraph satisfying size constraint and including query vertex.
 
-Please feel free to reach out to me at haicheng_guo@126.com regarding any questions or to obtain **permission** to use the code.
+Please feel free to reach out to me at haicheng_guo@126.com regarding any questions or to obtain **permission** to use the codes.
