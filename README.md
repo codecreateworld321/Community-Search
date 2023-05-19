@@ -32,7 +32,7 @@ SCBRB is the state-of-the-art exact algorithm for SCS. And STExa algorithm propo
 3. Running "STExa" to return resulting subgraph satisfying the limit of the STCS problem, "./STExa ./tru-dblp.txt 0 11 20 1000".
 
 #### Note
-If you need the code of SCBRB, please contact the authors of SCBRB [47]. And I attach the "makefile" of SCBRB to easily compile and run it after obtaining the code.
+If you need the code of SCBRB, please contact the authors of SCBRB [10]. And I attach the "makefile" of SCBRB to easily compile and run it after obtaining the code.
 
 SCBRB* is SCBRB optimized with our pruning approaches, by modifying the code of "SCBRB.cpp" as follows. 
 1. Function "CSSC_heu" in "SCBRB.cpp", is replaced by our heuristic algorithm (Algorithm 2, Functions "Findku" and "Heuristic" in "STExa.cpp"). The computation of Algorithm 2 is based on degree rather than support, e.g., for the computations of "k*" and "score function". 
